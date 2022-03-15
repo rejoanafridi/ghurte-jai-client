@@ -1,0 +1,11 @@
+
+.add-service-container{
+     margin: 120px auto;
+     text-align: center;
+}
+.add-service-container h1{
+     margin: 20px 0 ;
+}
+.add-service-container form input{
+     border-bottom:1px solid orangered;
+}

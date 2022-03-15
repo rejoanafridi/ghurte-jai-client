@@ -1,0 +1,16 @@
+.carousel {
+	width: 700px;
+	margin: auto;
+}
+.carousel img {
+	border-radius: 40px;
+}
+
+.events-container {
+	text-align: center;
+}
+.events-container h1 {
+	font-size: 50px;
+	color: #d05022;
+	margin-bottom: 20px;
+}

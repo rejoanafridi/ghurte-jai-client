@@ -1,0 +1,38 @@
+.login{
+     text-align: center;
+     margin: 60px 0;
+}
+.login h1{
+     color: orangered;
+     margin-bottom: 50px;
+}
+form{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     width: 30%;
+     margin: 0 auto;
+     box-shadow: 1px 2px 4px 1px orangered;
+     padding: 20px;
+     border-radius: 10px;
+     
+}
+form input{
+     margin: 10px;
+     height: 40px;
+}
+form a{
+     color: orangered;
+}
+form a:hover{
+     color: black;
+}
+button{
+     width: 100%;
+     margin: 0 auto;
+     padding: 5px;
+}
+.submit:hover, button:hover{
+     background-color: #f25117;
+     color: white;
+}

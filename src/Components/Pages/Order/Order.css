@@ -1,0 +1,31 @@
+.order_container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 30px;
+	justify-content:center;
+}
+.details {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	/* border: 1px solid orangered; */
+	box-shadow: 3px 3px 5px orangered;
+	width: 100%;
+}
+.confirm_btn {
+	display: flex;
+	justify-content: space-between;
+}
+.confirm_btn button {
+	margin: 0 5px;
+	width: 100px;
+}
+.all_order {
+	text-align: center;
+	margin: 20px 0;
+}
+.my-order-container{
+	align-items: center;
+}

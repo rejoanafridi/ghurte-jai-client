@@ -1,0 +1,33 @@
+.banner-container {
+	margin-top: 50px;
+
+	padding: 2rem 9%;
+}
+.row {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	justify-content: center;
+}
+.banner-image {
+	width: 100%;
+	object-fit: cover;
+}
+.banner {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.banner h1 {
+	font-size: 50px;
+}
+.banner button {
+	/* background-color: ; */
+	padding: 5px;
+	border-radius: 30px;
+}
+.banner button:hover {
+	background-color: #e6350e;
+	padding: 5px;
+	color: #fff;
+}
